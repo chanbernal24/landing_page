@@ -9,20 +9,21 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <style>
-        html, body{
+        html,
+        body {
             height: 100%;
         }
+
         * {
             font-family: "Inter", sans-serif;
         }
 
         .background {
-            background-image: url(photo2.jpg);
+            background-image: url(self.jpg);
             background-repeat: no-repeat;
-            width: 100%;
-            height: 100vh;
             background-size: cover;
-            background-position: 50%;
+            background-position: top;
+            height: 100vh;
         }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,43 +31,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
-<body class="h-100">
+<body>
 
-    <nav class="navbar navbar-expand shadow-lg">
-        <div class="container ">
-            <a href="#" class="navbar-brand text-dark">Christian</a>
-            <ul class="navbar-nav ">
-                <li class="nav-item d-flex justify-content-between">
-                    <a href="#" class="text-dark me-3">Home</a>
-                    <a href="#" class="text-dark me-3">Contact</a>
-                    <a href="#" class="text-dark me-3">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="background d-flex flex-column">
+        <nav class="navbar navbar-expand">
+            <div class="container ">
+                <a href="#" class="navbar-brand text-white">Christian</a>
+                <ul class="navbar-nav ">
+                    <li class="nav-item d-flex justify-content-between">
+                        <a href="#" class="text-white me-3">Home</a>
+                        <a href="#" class="text-white me-3">Contact</a>
+                        <a href="#" class="text-white me-3">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-    <div class="container-fluid bg-dark background" style="height: 600px;">
 
-        <div class="container h-100 d-flex flex-column align-items-center justify-content-center text-white">
+        <div class="container h-100 d-flex flex-column align-items-start justify-content-center text-white">
 
-            <h1 class="text-center">Hi, I am John Christian Bernal</h1>
-            <p>I am a UI/UX designer, and a developer</p>
+            <h1 class="">Hi, I am John Christian Bernal</h1>
+            <p class="text-light fw-light">I am a <kbd class="bg-light text-dark">UI/UX designer</kbd>, and a <kbd
+                    class="bg-light text-dark">developer</kbd>
+            </p>
 
 
         </div>
     </div>
 
+
     <div class="container-fluid py-5">
         <div class="container border-dark h-100 d-flex flex-column align-items-center justify-content-center">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2">
                 <div class="col">
-                    <div class="d-flex flex-column align-items-center align-items-md-stretch text-center">
+                    <div class="d-flex flex-column align-items-center align-items-md-stretch text-center bg-body-secondary rounded mt-2">
                         <img src="https://img.icons8.com/color/480/figma--v1.png" alt="Photo" class="img-fluid mb-3">
                         <p class="text-secondary">Make intuitive user interface.</p>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="d-flex flex-column align-items-center align-items-md-stretch text-center">
+                    <div class="d-flex flex-column align-items-center align-items-md-stretch text-center bg-body-secondary rounded mt-2">
                         <img src="https://img.icons8.com/office/480/code.png" alt="Photo" class="img-fluid mb-3">
                         <p class="text-secondary">Turn your design into beautiful webpages.</p>
                     </div>
@@ -77,9 +81,10 @@
 
     <div class="container-fluid bg-dark py-5" style="height: 600px;">
         <div class="container h-100 d-flex align-items-center text-white">
-            <h1 class="" style="font-weight: 100;"><q class="text-white"><i>I was  once a student in a twisted position and now found my passion. Looking back on the things
-                I experienced, it shaped me to be a person of exploration and find my innate talent in tech.
-            </i></q></h1>
+            <h1 class="" style="font-weight: 100;"><q class="text-white"><i>I was once a student in a twisted position
+                        and now found my passion. Looking back on the things
+                        I experienced, it shaped me to be a person of exploration and find my innate talent in tech.
+                    </i></q></h1>
 
         </div>
 
@@ -88,12 +93,12 @@
     <div class="position-sticky align-items-center d-flex justify-content-center p-5 text-secondary">
         <small class="text-center">Copyright © John Christian Bernal</small>
 
-    
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
